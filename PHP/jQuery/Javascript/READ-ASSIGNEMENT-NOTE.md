@@ -8,9 +8,10 @@
 # Create env.
 2-Create and fill the .env file variables with these values.
 # Run migration
-3-Run php  artisan make :migration
-#seed the Fen string to the database
-4-RUn php artisan db:seed --class=FenSeeder
+3-Run  php artisan migrate
+# seed the Fen string to the database
+4- The fen string is in App/public/Seeder/fen.text 
+ -Run php artisan db:seed --class=FenSeeder to seed string to the database
 
 # Run the project
 5- run npm to install  for dependencies
