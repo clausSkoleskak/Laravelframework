@@ -11,7 +11,9 @@
 
 # Run the project
 5- run npm install  for dependencies
+
 6- run composer install dependencies
+
 7-php artisan serve
 
  
