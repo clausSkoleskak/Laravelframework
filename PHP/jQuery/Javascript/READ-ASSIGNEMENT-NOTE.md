@@ -10,6 +10,8 @@
 4-RUn php artisan db:seed --class=FenSeeder
 
 # Run the project
-5-php artisan serve
+5- run npm install  for dependencies
+6- run composer install dependencies
+7-php artisan serve
 
  
