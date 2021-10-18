@@ -1,0 +1,12 @@
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.letters{
+    bottom: 0;
+    display: flex;
+}
+li{
+    list-style:none !important;
+}
