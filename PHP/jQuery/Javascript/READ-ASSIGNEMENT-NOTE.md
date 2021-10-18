@@ -13,7 +13,7 @@
 4- The fen string is in App/public/Seeder/fen.text 
  -Run php artisan db:seed --class=FenSeeder 
  
- to seed string to the database
+ to seed fen string to the  database
 
 # Run the project
 5- run npm to install  for dependencies
