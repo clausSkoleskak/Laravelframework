@@ -11,12 +11,15 @@ use Illuminate\Support\Facades\DB;
 class FenController extends Controller
 {
     public function index(Request $request)
-    {
-        $users = Fen::all()->random(1)->first();
-        //$users = Fen::inRandomOrder()->first();
+      { 
+        if(!$request->input('fen')){
+        $chess = Fen::all()->random(1)->first();
+        return view('index', ['data' => $chess]);
+       }else{
+        $chess = Fen::inRandomOrder()->first();
+        return view('index', ['data' => $chess]);
 
-        return view('index', ['data' => $users]);
-
+       }
 
     }
 
